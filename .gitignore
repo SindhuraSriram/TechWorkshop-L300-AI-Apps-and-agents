@@ -49,11 +49,15 @@ out/
 .env
 .env.*
 
+# Local secrets folder (local-only, do not commit)
+/.secrets
+.secrets/
+
 # Azure/ADO
 .azure-pipelines.yml
 *.azuredevops
 
-# Github
-.github/
 parameters.json
 .azure
+# Github
+# (keep workflow files tracked) - removed .github/ from ignore
