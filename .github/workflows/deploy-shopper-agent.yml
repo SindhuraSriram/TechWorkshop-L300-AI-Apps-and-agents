@@ -13,6 +13,9 @@ on:
 jobs:
   run-shopper-agent:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: src
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -39,6 +42,5 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Run shopper agent initializer
-        working-directory: src
         run: |
           python app/agents/shopperAgent_initializer.py
