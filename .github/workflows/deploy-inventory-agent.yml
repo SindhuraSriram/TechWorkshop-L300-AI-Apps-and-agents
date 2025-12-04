@@ -28,8 +28,8 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        working-directory: src
         run: |
+          cd src
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
@@ -39,6 +39,6 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Run inventory agent initializer
-        working-directory: src
         run: |
+          cd src
           python app/agents/inventoryAgent_initializer.py
