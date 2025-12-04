@@ -39,5 +39,4 @@ jobs:
 
       - name: Run inventory agent initializer
         run: |
-          cd src
-          python app/agents/inventoryAgent_initializer.py
+          python src/app/agents/inventoryAgent_initializer.py
