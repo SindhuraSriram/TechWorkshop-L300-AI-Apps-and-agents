@@ -1,0 +1,16 @@
+{
+  "Name": "Foundry Agents Thread Access",
+  "IsCustom": true,
+  "Description": "Allows Foundry AI Agents thread operations for agent workloads",
+  "Actions": [],
+  "NotActions": [],
+  "DataActions": [
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/read",
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/write",
+    "Microsoft.CognitiveServices/accounts/AIServices/agents/delete"
+  ],
+  "NotDataActions": [],
+  "AssignableScopes": [
+    "/subscriptions/002ea536-738a-42b3-8e40-20e4f516f59a/resourceGroups/techworkshop-l300-ai-agents2/providers/Microsoft.CognitiveServices/accounts/aif-qqvq4mhdez6lm"
+  ]
+}
