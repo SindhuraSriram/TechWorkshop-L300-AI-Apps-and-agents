@@ -39,5 +39,6 @@ jobs:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
       - name: Run shopper agent initializer
+        working-directory: src
         run: |
-          python src/app/agents/shopperAgent_initializer.py
+          python app/agents/shopperAgent_initializer.py
