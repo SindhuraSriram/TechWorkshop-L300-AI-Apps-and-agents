@@ -1,0 +1,72 @@
+Chatbot
+You: What colors of green paint do you have?
+Cora:
+Hi! We have the following green paint colors available:
+
+ID: PROD0001 Name: Pale Meadow Type: Paint Shades Description: A soft, earthy green reminiscent of open meadows at dawn. PunchLine: Nature’s touch inside your home Price: 29.99 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/PaleMeadow.png
+
+ID: PROD0024 Name: Honeydew Sunrise Type: Paint Shades Description: A velvety, refreshing green for rejuvenated and cozy spaces. PunchLine: Freshen up with a gentle green glow Price: 45.99 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/HoneydewSunrise.png
+
+ID: PROD0021 Name: Effervescent Jade Type: Paint Shades Description: A sparkling, uplifting jade green for spaces brimming with vitality. PunchLine: Energize your room, refresh your mind Price: 42.99 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/EffervescentJade.png
+
+ID: PROD0007 Name: Forest Whisper Type: Paint Shades Description: Premium quality forest whisper paint with excellent coverage and durability. Perfect for interior and exterior surfaces with long-lasting color retention. PunchLine: Transform Your Space with Forest Whisper! Price: 43.09 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/Forest%20Whisper%20Paint.png
+
+ID: PROD0008 Name: Morning Dew Type: Paint Shades Description: Premium quality morning dew paint with excellent coverage and durability. Perfect for interior and exterior surfaces with long-lasting color retention. PunchLine: Transform Your Space with Morning Dew! Price: 81.94 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/Morning%20Dew%20Paint.png
+
+ID: PROD0018 Name: Deep Forest Type: Paint Shades Description: Premium quality deep forest paint with excellent coverage and durability. Perfect for interior and exterior surfaces with long-lasting color retention. PunchLine: Transform Your Space with Deep Forest! Price: 119.93 ImageURL: https://staidemodev.blob.core.windows.net/hero-demos-hardcoded-chat-images/Deep%20Forest.png
+
+Would you like help comparing these, checking stock, or placing an order?
+
+You: I think I’m interested in Deep Forest. How many gallons would I need to paint a medium sized bedroom?
+Interior_designer:
+Great choice — Deep Forest is a rich, durable green. Here’s a quick estimate for a medium bedroom and next steps:
+
+Estimated coverage assumptions:
+
+Coverage: about 350 sq ft per gallon (one coat)
+Typical medium bedroom example used: 12 ft x 12 ft with 8 ft ceilings (if your room differs, I can recalc)
+Calculation (example room):
+
+Perimeter = 2*(12+12) = 48 ft
+Wall area = 48 ft * 8 ft = 384 sq ft
+Subtract door/window (~35 sq ft) → net ~349 sq ft
+One coat ≈ 1 gallon (349/350 ≈ 1)
+Two coats (recommended) → 2 gallons
+Notes and recommendations:
+
+If you are covering a darker color or porous walls, plan for a primer coat — that may add 1 more gallon (so 3 gallons total).
+If you plan to paint ceiling or extensive trim, you’ll need additional paint (or separate ceiling/trim paint).
+Example costs (Deep Forest at $119.93 per gallon):
+
+2 gallons (two coats): $239.86
+3 gallons (including primer/extra): $359.79
+Useful upsells I recommend from our catalog: an Electric Sprayer 350 for faster, smoother coverage (especially helpful for textured or multiple rooms) and a Standard Paint Tray for roller work.
+
+Would you like me to:
+
+Recalculate using your exact room dimensions and number of windows/doors? or
+Add primer to the estimate if you’re covering a darker color? or
+Reserve 2 or 3 gallons of Deep Forest and add the sprayer/tray to your cart?
+You: Let’s add two gallons to the cart, please.
+Cart_manager:
+Done — I’ve added 2 gallons of Deep Forest to your cart. Your cart total is $239.86. Would you like me to also add an Electric Sprayer 350 or a Standard Paint Tray to help with application, or proceed to checkout?
+
+Customer_loyalty:
+Congratulations! 🎉 I checked your loyalty details for customer ID CUST001 and I’m happy to say you’re eligible for an 8.3% loyalty discount. 😊 Treat yourself and enjoy your savings at checkout — thank you for being a valued customer! 🛍️
+
+You: Please also add one paint tray and two of your All-Purpose Wall Paint Brushes.
+Cart_manager:
+Done — I’ve added 1 Standard Paint Tray and 2 All-Purpose Wall Paint Brushes to your cart. Your updated cart total is $268.83. Would you like me to add painter’s tape or a drop cloth as well, or proceed to checkout?
+
+You: What items are in my cart right now?
+Cart_manager:
+You currently have 3 different products in your cart (5 items total). Your cart total is $268.83. Would you like me to add painter’s tape or a drop cloth, update quantities, or proceed to checkout?
+
+You: Please apply the discount that you calculated before.
+Cart_manager:
+Done — I applied the 8.3% discount to your cart. You saved $22.31 and your new total is $246.52. Would you like to proceed to checkout or add anything else (painter’s tape or a drop cloth)?
+
+You: I’d like to check out now.
+Cart_manager:
+Great — I’ve prepared your order for checkout. Your total after the 8.3% discount is $246.52. You may pick up your products from the closest Zava retail outlet, located in Miami, Florida. Would you like to pay now or make any changes to your order?
+
